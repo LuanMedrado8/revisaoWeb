@@ -1,0 +1,56 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+  #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    gap: 20px;
+  }
+  
+  #button {
+    padding: 20px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 175px;
+  }
+  
+  #button2 {
+    padding: 20px;
+    color: black;
+    background-color: #73bddd;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+  }
+  
+  #numeroUsuario {
+    height: 25px;
+    width: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    
+  }
+  
+  #numeroUsuario:focus {
+    border: 2px solid #37b9f1;
+  }
+  
+  #message {
+    margin-top: 10px;
+    font-size: 1.5rem;
+  }
